@@ -1,0 +1,35 @@
+name: test-and-package
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Original Python tests
+        run: python -B -m unittest discover -s 开发与验证/original -p test_bitrate_core.py -v
+      - name: Regenerate references
+        run: python -B 开发与验证/generate_reference.py
+      - name: Check reference reproducibility
+        run: git diff --exit-code -- 开发与验证/reference_vectors.json
+      - name: Test actual HTML logic (DOM stubs, not browser acceptance)
+        run: node 开发与验证/test_calculator.mjs
+      - name: Package with licenses and hashes
+        run: python tools/package_release.py
+      - uses: actions/upload-artifact@v7
+        with:
+          name: video-bitrate-calculator-macos
+          path: release/*
+          if-no-files-found: error
+          retention-days: 14

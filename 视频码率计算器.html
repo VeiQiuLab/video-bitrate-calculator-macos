@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; media-src blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>视频码率计算器 · Mac 离线版</title>
+<style>
+:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;color:#202938;background:#f3f5f8;font-synthesis:none;--panel:#fff;--muted:#647186;--line:#e4e8ef;--blue:#1264d8;--soft:#eef4ff;--field:#fafbfe;--err:#ac2437}
+*{box-sizing:border-box}body{margin:0}main{max-width:1120px;margin:auto;padding:44px 28px 32px}header{display:flex;justify-content:space-between;align-items:start;gap:20px;margin-bottom:28px}h1{font-size:30px;letter-spacing:-.8px;margin:8px 0 10px}h2{font-size:17px;margin:0 0 18px}p{line-height:1.65;margin:8px 0}.eyebrow{font-size:11px;letter-spacing:2px;color:var(--blue);font-weight:700}.subtitle,.hint,footer{color:var(--muted);font-size:13px}.badge{padding:7px 12px;border-radius:20px;background:var(--panel);font-size:12px;white-space:nowrap;border:1px solid var(--line);margin-top:12px}.dot{color:#28845f;margin-right:5px}.layout{display:grid;grid-template-columns:1.1fr 1fr;gap:22px;align-items:start}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px;margin-bottom:18px;box-shadow:0 4px 20px #23324a03}.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{margin-bottom:16px}label{font-size:13px;font-weight:600;display:block;margin-bottom:8px}input,select,textarea,button{font:inherit}input,select{width:100%;min-height:43px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;background:var(--field);color:inherit}input:focus,select:focus,textarea:focus{outline:2px solid #5698f3;outline-offset:2px}input:disabled{opacity:.5}button,.filebutton{border:1px solid var(--line);border-radius:9px;background:var(--panel);color:inherit;padding:10px 14px;cursor:pointer;font-size:13px;font-weight:600;min-height:40px}button:hover,.filebutton:hover{border-color:#8ea9cf}button:focus-visible,a:focus-visible{outline:2px solid #5698f3;outline-offset:3px}button.primary{background:var(--blue);color:#fff;border-color:var(--blue)}button:disabled{opacity:.4;cursor:default}.hint{font-size:12px;line-height:1.65}.filebutton{display:inline-block;color:var(--blue);margin:0}.fileline{display:flex;gap:12px;align-items:center;margin-bottom:18px}.fileinput{position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden}.fileinput:focus-visible+.filebutton{outline:2px solid #5698f3;outline-offset:3px}.number{font-size:68px;letter-spacing:-3px;line-height:1.1;font-weight:650;font-variant-numeric:tabular-nums;color:var(--blue);margin:8px 0}.number small{font-size:17px;font-weight:500;letter-spacing:0;color:var(--muted);margin-left:10px}.resulthead{display:flex;justify-content:space-between;align-items:center}.resulthead h2{margin:0}.resultcard{background:linear-gradient(145deg,var(--panel) 60%,var(--soft));padding-top:28px}.time{font-size:13px;color:var(--muted);margin:12px 0 22px}.bar{display:flex;width:100%;height:10px;border-radius:8px;overflow:hidden;background:var(--line);margin:18px 0}.bar span:nth-child(1){background:#347ce5}.bar span:nth-child(2){background:#6db69b}.bar span:nth-child(3){background:#b5a0de}.bar span:nth-child(4){background:#c5cdd9}.stats{margin:0}.stats div{display:flex;justify-content:space-between;gap:14px;font-size:13px;padding:8px 0;border-bottom:1px solid var(--line)}dt{color:var(--muted)}dd{margin:0;text-align:right;font-variant-numeric:tabular-nums}.notice{background:var(--soft);padding:12px 14px;border-radius:10px;font-size:12px;line-height:1.65;margin-top:18px}.error{color:var(--err);font-size:13px;line-height:1.6;margin:0 0 16px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 8px}textarea{width:100%;resize:vertical;min-height:238px;border:1px solid var(--line);border-radius:10px;padding:14px;background:var(--field);color:inherit;font-size:12px;line-height:1.8}details{margin-top:14px}summary{font-size:13px;color:var(--muted);cursor:pointer}footer{margin-top:12px;display:flex;justify-content:space-between;gap:18px;font-size:12px}a{color:var(--blue)}[hidden]{display:none!important}#status{min-height:20px}#mediaStatus{overflow-wrap:anywhere}.tiny{font-size:11px;color:var(--muted)}.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11px;color:var(--muted)}.legend i{width:7px;height:7px;display:inline-block;border-radius:50%;margin-right:4px}.formfoot{display:flex;justify-content:space-between;align-items:center;gap:10px}.unitinfo{margin-top:-5px;margin-bottom:14px}
+@media(max-width:850px){main{padding:26px 18px}.layout{grid-template-columns:1fr}.card{padding:21px}h1{font-size:27px}header{margin-bottom:20px}.number{font-size:60px}footer{display:block}}
+@media(max-width:420px){.row{grid-template-columns:1fr;gap:0}header{display:block}.badge{display:inline-block;margin:0}.fileline{display:block}.fileline .hint{margin-top:8px}.number{font-size:54px}}
+@media(prefers-color-scheme:dark){:root{color:#e0e6ef;background:#151a23;--panel:#202733;--muted:#a6b3c5;--line:#394352;--blue:#78adff;--soft:#273750;--field:#19212d;--err:#ffa2ad}button.primary{background:#2869c5;color:white;border-color:#2869c5}.card{box-shadow:none}}
+</style>
+</head>
+<body>
+<main>
+<header><div><div class="eyebrow">VIDEO BITRATE · MAC EDITION</div><h1>把体积，算到每一秒。</h1><p class="subtitle">输入输出时长和文件大小，得到可直接填写的平均码率。</p></div><span class="badge"><span class="dot">●</span>离线运行 · 无需安装</span></header>
+<noscript>请在浏览器中启用 JavaScript 后重新打开本文件。</noscript>
+<div class="layout">
+<form id="form" novalidate>
+<section class="card"><h2>01　输出时长</h2>
+<div class="fileline"><input class="fileinput" id="media" type="file" accept="video/*,.mkv,.webm,.mov,.mp4,.m4v"><label for="media" class="filebutton">选择视频，读取原片时长</label><span class="hint">只在本机读取，不上传</span></div>
+<p id="mediaStatus" class="hint" role="status">可选；格式不受浏览器支持时，请手动输入。</p>
+<div class="field"><label for="timeMode">时长填写方式</label><select id="timeMode"><option value="output">直接填写最终输出时长</option><option value="segment">从原片裁剪 / 变速换算</option></select></div>
+<div id="direct"><div class="field"><label for="duration">最终输出时长</label><input id="duration" type="text" value="9:38" spellcheck="false" autocomplete="off" inputmode="decimal"><p class="hint">支持秒数、分:秒、时:分:秒及小数秒，如 578、9:38、1:09:38.5。</p></div></div>
+<div id="segment" hidden><div class="field"><label for="source">原片总时长</label><input id="source" value="9:38" type="text" autocomplete="off"></div><div class="row"><div class="field"><label for="start">保留片段起点</label><input id="start" value="0" type="text" autocomplete="off"></div><div class="field"><label for="end">保留片段终点（空白＝片尾）</label><input id="end" value="" placeholder="片尾" type="text" autocomplete="off"></div></div><div class="field"><label for="speed">播放速度（2＝两倍速，0.5＝慢一倍）</label><input id="speed" value="1" type="number" min="0.01" max="100" step="0.01"></div><p class="hint">输出时长＝(终点－起点) ÷ 速度。这里只换算预算，请在剪辑软件中完成同样处理；多个片段请直接填最终总时长。</p></div>
+</section>
+<section class="card"><h2>02　文件大小与音频</h2><div class="row"><div class="field"><label for="limit">上传文件上限</label><input id="limit" value="180" type="number" min="0" step="any"></div><div class="field"><label for="target">安全目标大小</label><input id="target" value="170" type="number" min="0" step="any"></div></div><div class="field"><label for="unit">上述大小及额外预留的单位</label><select id="unit"><option value="MB">MB · 1,000,000 字节（网站未说明时选它）</option><option value="MiB">MiB · 1,048,576 字节</option></select></div><p id="unitInfo" class="hint unitinfo"></p>
+<div class="row"><div class="field"><label for="audio">全部输出音轨合计（kbps）</label><input id="audio" value="128" type="number" min="0" max="2048" step="1"></div><div class="field"><label for="overhead">封装及码率浮动预留（%）</label><input id="overhead" value="1.5" type="number" min="0" max="15" step="0.1"></div></div><p class="hint">128 可用于一条 AAC 立体声音轨；两条各 128 请填 256。填 0 代表删除所有音轨。音频直通请按实际码率总和预算，波动未知时改为重新编码。</p>
+<details><summary>额外字幕 / 附件预留</summary><div class="field" style="margin-top:14px"><label for="extra">额外固定占用（与上方大小单位一致）</label><input id="extra" value="0" type="number" min="0" step="any"><p class="hint">用于内封字幕、封面等；封装百分比之外额外扣除。大量附件应按实际字节预算。</p></div></details>
+</section>
+<section class="card"><h2>03　编码建议</h2><div class="field"><label for="encoder">准备使用的编码器</label><select id="encoder"><option value="hevc">H.265 / x265 10-bit · 软件压制</option><option value="h264">H.264 / x264 · 兼容优先</option><option value="av1">AV1 / SVT-AV1 · 愿意多花时间</option><option value="vp9">VP9 · WebM / MKV</option><option value="vt_hevc">H.265 / Apple VideoToolbox · 速度优先</option><option value="vt_h264">H.264 / Apple VideoToolbox · 速度与兼容</option></select></div><div class="field"><label for="profile">画面类型（仅用于经验建议）</label><select id="profile"><option value="normal">综合 / 一般游戏</option><option value="fast">高速战斗 / 大量粒子</option><option value="slow">风景 / 慢节奏</option></select></div><p class="hint">切换编码器不会改变容量决定的码率；同码率下，画质、速度和兼容性会不同。</p><div class="formfoot"><button id="reset" type="button">恢复原版示例</button><span class="tiny">修改后自动计算</span></div></section>
+</form>
+<aside><section class="card resultcard"><div class="resulthead"><h2>视频平均码率</h2><span class="tiny">Average Bitrate</span></div><p id="error" class="error" role="alert" hidden></p><div class="number"><span id="videoRate">—</span><small>kbps</small></div><p id="outputTime" class="time">等待计算</p><button id="copyRate" class="primary" type="button">复制视频码率</button><div class="bar" aria-hidden="true"><span id="videoBar"></span><span id="audioBar"></span><span id="extraBar"></span><span id="overheadBar"></span></div><div class="legend"><span><i style="background:#347ce5"></i>视频</span><span><i style="background:#6db69b"></i>音频</span><span><i style="background:#b5a0de"></i>附件</span><span><i style="background:#c5cdd9"></i>预留</span></div><dl class="stats"><div><dt>理论文件大小</dt><dd id="estimate">—</dd></div><div><dt>视频 / 音频预算</dt><dd id="mediaBudget">—</dd></div><div><dt>封装与浮动预留</dt><dd id="overheadBudget">—</dd></div><div><dt>距离上传上限的余量</dt><dd id="margin">—</dd></div></dl><p class="notice">将上方数字填入编码软件的<b>视频平均码率</b>，不要填到音频码率或 RF / CQ。最终体积仍需检查，尤其是硬件编码或音频直通。</p></section>
+<section class="card"><h2>可复制的压制设置</h2><label for="settings" class="hint">按当前时长、预算和编码器生成</label><textarea id="settings" readonly spellcheck="false" aria-label="压制设置"></textarea><div class="actions"><button id="copySettings" type="button">复制完整设置</button><button id="export" type="button">导出 TXT</button></div><p id="status" class="hint" role="status" aria-live="polite"></p><details><summary>预算公式与使用边界</summary><p class="hint">视频 kbps＝向下取整{[目标字节 × (1－预留比例)－附件字节] × 8 ÷ 输出秒数 ÷ 1000－音频 kbps}。kbps 始终为十进制：1000 bit/s。</p><p class="hint">1.5% 是人工预算，不是 MP4 固定开销。短片、很多音轨、字幕或复杂封装可增加预留。安全目标必须小于上限；编码后检查真实文件大小和动作画质。</p><p class="hint">本工具不转码、不修改视频，也不会替你裁剪或变速。视频时长读取依赖浏览器支持，MKV 等格式可手填。10-bit 不会恢复源片细节，HDR 色彩处理需另行检查。</p></details></section></aside>
+</div><footer><span>视频码率计算器 · 2.0 Mac 离线版 · 保留原版预算逻辑</span><span>单文件，无网络依赖 · Intel / Apple Silicon</span></footer>
+</main>
+<script id="budget-core">
+/* Port of bitrate_core.py; original formula and recommendation thresholds preserved. */
+(function(root){
+'use strict';
+function number(value,name,min,max){
+ const raw=String(value).trim();
+ if(!/^[+]?(?:\d+(?:\.\d*)?|\.\d+)$/.test(raw))throw Error(name+'请输入有效数字。');
+ const n=Number(raw);
+ if(!Number.isFinite(n)||n<min||n>max)throw Error(name+'须在 '+min+'～'+max+' 之间。');
+ return n;
+}
+function duration(value,allowZero=false){
+ const parts=String(value).trim().replace(/：/g,':').split(':');
+ if(parts.length<1||parts.length>3||parts.some(p=>!/^\d+(?:\.\d+)?$/.test(p)))throw Error('时长格式请用秒数、分:秒或时:分:秒。');
+ const a=parts.map(Number);
+ if(parts.length>1&&(a[a.length-1]>=60||!Number.isInteger(a[0])))throw Error('秒须小于 60，小时 / 分钟须是整数。');
+ if(parts.length===3&&(a[1]>=60||!Number.isInteger(a[1])))throw Error('时:分:秒中的分钟须是小于 60 的整数。');
+ const s=a.reduce((acc,n)=>acc*60+n,0);
+ if(!Number.isFinite(s)||s<0||(!allowZero&&s===0)||s>864000)throw Error('时长须大于 0 且不超过 10 天；片段起点可以为 0。');
+ return s;
+}
+function outputSeconds(o){
+ if(o.timeMode!=='segment')return duration(o.duration);
+ const source=duration(o.source),start=duration(o.start,true),end=String(o.end).trim()===''?source:duration(o.end);
+ if(start>=end||end>source)throw Error('须满足：0 ≤ 起点 < 终点 ≤ 原片总时长。');
+ const speed=number(o.speed,'播放速度',0.01,100),seconds=(end-start)/speed;
+ if(seconds<=0||seconds>864000)throw Error('换算后的输出时长须大于 0 且不超过 10 天。');
+ return seconds;
+}
+function calculate(o){
+ if(!['MB','MiB'].includes(o.unit))throw Error('请选择 MB 或 MiB。');
+ const seconds=outputSeconds(o),unit=o.unit,unitBytes=unit==='MiB'?1048576:1000000;
+ const limit=number(o.limit,'上传上限',0,100000000),target=number(o.target,'安全目标',0,100000000);
+ if(limit<=0||target<=0)throw Error('上传上限和安全目标必须大于 0。');
+ if(target>=limit)throw Error('安全目标须小于上传上限，以预留余量。');
+ const audio=number(o.audio,'音频总码率',0,2048),pct=number(o.overhead,'预留比例',0,15),extra=number(o.extra,'附件预留',0,100000000);
+ if(!Number.isInteger(audio))throw Error('音频总码率请填写整数 kbps。');
+ const targetBytes=target*unitBytes,extraBytes=extra*unitBytes,p=pct/100;
+ // Keep operation order identical to the original MB formula when extra is zero.
+ const video=Math.floor(target*(unitBytes/125)/seconds*(1-p)-extraBytes*8/1000/seconds-audio);
+ if(video<100)throw Error('视频预算不足 100 kbps，请缩短时长、放宽体积或降低音频 / 附件预算。');
+ const videoBytes=video*seconds*125,audioBytes=audio*seconds*125;
+ const estimatedBytes=(videoBytes+audioBytes+extraBytes)/(1-p);
+ return {seconds,unit,unitBytes,limit,target,audio,pct,extra,video,total:video+audio,videoBytes,audioBytes,extraBytes,overheadBytes:targetBytes*p,estimatedBytes,targetBytes,limitBytes:limit*unitBytes};
+}
+const codecs={
+ hevc:{name:'H.265 / HEVC',encoder:'H.265 (x265 10-bit，软件编码)',preset:'Slow；太慢可用 Medium',container:'MP4 或 MKV；上传前确认支持 HEVC',thresholds:[16000,5400,2900,2250,1150],tip:'同体积下通常适合追求压缩效率；实际效果以片段对比为准。'},
+ h264:{name:'H.264 / AVC',encoder:'H.264 (x264，软件编码)',preset:'Slow；太慢可用 Medium',container:'MP4',thresholds:[22000,8500,4300,3800,1900],tip:'广泛兼容；码率很低时可考虑降低分辨率。'},
+ av1:{name:'AV1',encoder:'AV1 (SVT-AV1，可选 10-bit)',preset:'4；编码太慢可用 5 或 6',container:'MP4 或 MKV；先确认上传和播放端支持 AV1',thresholds:[12500,4200,2000,1650,800],tip:'可尝试较高压缩效率，但软件编码可能很慢；Air 上先做短片对比。'},
+ vp9:{name:'VP9',encoder:'VP9 (软件编码)',preset:'偏慢 / 高质量，以软件实际选项为准',container:'WebM 或 MKV；先确认目标网站支持',thresholds:[16000,5900,3100,2400,1250],tip:'编码耗时较长；Mac 日常压制通常先考虑 H.264 / HEVC。'},
+ vt_hevc:{name:'H.265 / Apple VideoToolbox',encoder:'H.265 (VideoToolbox，可用时选 10-bit)',preset:'从 HandBrake 的 Apple VideoToolbox 硬件预设起步',container:'MP4；先确认上传端支持 HEVC',hardware:true,tip:'速度优先；硬编画质和码率跟随程度取决于芯片、素材和软件版本。'},
+ vt_h264:{name:'H.264 / Apple VideoToolbox',encoder:'H.264 (VideoToolbox)',preset:'使用软件实际提供的硬件预设',container:'MP4',hardware:true,tip:'速度与兼容优先；码率预算很紧时先试软件 x264 两遍。'}
+};
+function recommend(id,rate,profile){
+ const c=codecs[id];if(!c)throw Error('未知编码器。');
+ if(c.hardware)return '按源片选 1080p 或 720p；先测动作片段，软件阈值不直接套用硬编';
+ const factor=profile==='fast'?1.3:profile==='slow'?0.85:1;
+ const options=['2560×1440 @ 60 FPS','1920×1080 @ 60 FPS','1920×1080 @ 30 FPS','1280×720 @ 60 FPS','1280×720 @ 30 FPS'];
+ const order=profile==='fast'?[0,1,3,2,4]:[0,1,2,3,4];
+ for(const i of order)if(rate>=Math.trunc(c.thresholds[i]*factor))return options[i];
+ return '建议剪短或降低到 720p30 以下';
+}
+function formatDuration(s){
+ const ms=Math.round(s*1000),h=Math.floor(ms/3600000),m=Math.floor(ms/60000)%60,sec=(ms%60000)/1000;
+ // Preserve leading zero for fractional seconds (e.g. 09.5).
+ const ss=(sec<10?'0':'')+String(Number(sec.toFixed(3)));
+ return h?h+':'+String(m).padStart(2,'0')+':'+ss:(Math.floor(ms/60000)+':'+ss);
+}
+function settings(b,id,profile,o){
+ const c=codecs[id];if(!c)throw Error('未知编码器。');
+ const lines=['视频压制预算 · Mac 离线版 2.0',
+ '最终输出时长：'+formatDuration(b.seconds)+'（'+Number(b.seconds.toFixed(6))+' 秒）',
+ '上传上限：'+b.limit+' '+b.unit+'；安全目标：'+b.target+' '+b.unit,
+ '单位：1 '+b.unit+' = '+b.unitBytes.toLocaleString('en-US')+' 字节；1 kbps = 1000 bit/s',
+ '视频编码器：'+c.encoder,'视频码率控制：Average Bitrate（平均码率）；不要用 RF / CQ 代替',
+ '视频平均码率：'+b.video+' kbps',
+ c.hardware?'多遍：仅在当前软件 / 芯片确实支持时启用；不能照搬 x264 / x265 两遍参数':'多遍：启用 2-Pass / Multi-pass（当前编码器和软件支持时）',
+ '编码器预设：'+c.preset,'容器：'+c.container,
+ '音频：'+(b.audio?'所有输出音轨合计 '+b.audio+' kbps；AAC 可按音轨分配，不要每条都填总和':'删除全部音轨'),
+ '封装及浮动预留：'+b.pct+'%；额外字幕 / 附件：'+b.extra+' '+b.unit,
+ '理论大小：'+(b.estimatedBytes/1000000).toFixed(3)+' MB / '+(b.estimatedBytes/1048576).toFixed(3)+' MiB',
+ '经验分辨率 / 帧率：'+recommend(id,b.video,profile),
+ '不高于源片分辨率 / 帧率；帧率通常保持源片，固定帧率需求按交付端设置。',
+ '经验建议沿用原版阈值，不是画质保证；可在建议值与源片范围内测试。',c.tip];
+ if(o&&o.timeMode==='segment')lines.push('本预算使用裁剪 / 变速后的时长；请先在剪辑软件完成同样处理。');
+ lines.push('HDR / 色彩、音轨选择和字幕另行确认；输出后核对真实文件大小和画质。','本计算器只计算，不执行转码，也不会修改原片。');
+ return lines.join('\n');
+}
+root.BitrateCore={number,duration,outputSeconds,calculate,codecs,recommend,formatDuration,settings};
+})(typeof globalThis!=='undefined'?globalThis:window);
+</script>
+<script id="calculator-ui">
+(function(){
+'use strict';
+const $=id=>document.getElementById(id),C=globalThis.BitrateCore,ids=['timeMode','duration','source','start','end','speed','limit','target','unit','audio','overhead','extra','encoder','profile'];
+let current=null,readToken=0;
+function values(){const o={};for(const id of ids)o[id]=$(id).value;return o;}
+function size(n,u){return (n/(u==='MiB'?1048576:1000000)).toFixed(2)+' '+u;}
+function clear(){current=null;for(const id of ['copyRate','copySettings','export'])$(id).disabled=true;for(const id of ['videoRate','estimate','mediaBudget','overheadBudget','margin'])$(id).textContent='—';$('outputTime').textContent='请修正输入后查看结果';$('settings').value='';for(const id of ['videoBar','audioBar','extraBar','overheadBar'])$(id).style.width='0';}
+function update(){
+ const o=values();$('direct').hidden=o.timeMode!=='output';$('segment').hidden=o.timeMode!=='segment';$('status').textContent='';
+ $('unitInfo').textContent=o.unit==='MB'?'180 MB = 180,000,000 字节 ≈ 171.66 MiB；目标大小按同一单位填写。':'180 MiB = 188,743,680 字节 ≈ 188.74 MB；只有网站明确说明 MiB 时才选择。';
+ try{
+  const b=C.calculate(o);current={b,o};$('error').hidden=true;$('error').textContent='';
+  $('videoRate').textContent=String(b.video);$('outputTime').textContent='按最终输出 '+C.formatDuration(b.seconds)+' · '+Number(b.seconds.toFixed(6))+' 秒计算';
+  $('estimate').textContent=size(b.estimatedBytes,'MB')+' / '+size(b.estimatedBytes,'MiB');
+  $('mediaBudget').textContent=size(b.videoBytes,b.unit)+' / '+size(b.audioBytes,b.unit);
+  $('overheadBudget').textContent=size(b.overheadBytes,b.unit)+'（'+b.pct+'%）';
+  $('margin').textContent=size(b.limitBytes-b.estimatedBytes,b.unit);
+  for(const [id,n] of [['videoBar',b.videoBytes],['audioBar',b.audioBytes],['extraBar',b.extraBytes],['overheadBar',b.overheadBytes]])$(id).style.width=(100*n/b.targetBytes)+'%';
+  $('settings').value=C.settings(b,o.encoder,o.profile,o);for(const id of ['copyRate','copySettings','export'])$(id).disabled=false;
+ }catch(e){clear();$('error').hidden=false;$('error').textContent=e.message;}
+}
+async function copy(text){
+ try{if(!navigator.clipboard)throw Error('fallback');await navigator.clipboard.writeText(text);$('status').textContent='已复制。';}
+ catch(e){const area=document.createElement('textarea');area.value=text;area.style.cssText='position:fixed;top:0;left:0;opacity:0';document.body.appendChild(area);area.select();let ok=false;try{ok=document.execCommand('copy');}catch(e){}area.remove();if(ok){$('status').textContent='已复制。';}else{$('settings').focus();$('settings').select();$('status').textContent='浏览器限制自动复制；已选中完整设置，请按 ⌘C（Windows：Ctrl+C）。视频码率也可手动选中。';}}
+}
+for(const id of ids)$(id).addEventListener('input',update);
+$('form').addEventListener('submit',e=>{e.preventDefault();update();});
+$('copyRate').addEventListener('click',()=>{if(current)copy(String(current.b.video));});
+$('copySettings').addEventListener('click',()=>{if(current)copy($('settings').value);});
+$('export').addEventListener('click',()=>{if(!current)return;const url=URL.createObjectURL(new Blob(['\ufeff'+$('settings').value],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='视频压制设置.txt';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),2000);$('status').textContent='已请求保存 TXT；请查看浏览器的下载位置。';});
+$('reset').addEventListener('click',()=>{$('form').reset();readToken++;$('mediaStatus').textContent='可选；格式不受浏览器支持时，请手动输入。';update();});
+$('media').addEventListener('change',()=>{
+ const file=$('media').files[0],token=++readToken;if(!file)return;
+ const video=document.createElement('video'),url=URL.createObjectURL(file);let settled=false;
+ $('mediaStatus').textContent='正在读取：'+file.name;
+ const finish=(ok)=>{if(settled)return;settled=true;clearTimeout(timer);const seconds=video.duration;video.removeAttribute('src');video.load();URL.revokeObjectURL(url);if(token!==readToken)return;
+  if(ok&&Number.isFinite(seconds)&&seconds>0&&seconds<=864000){const value=String(Math.ceil(seconds*1000)/1000);$('source').value=value;if($('timeMode').value==='output')$('duration').value=value;$('mediaStatus').textContent=file.name+' · 原片约 '+C.formatDuration(seconds)+'；已填入原片时长。若有裁剪 / 变速，请切换换算方式或手填最终时长。';update();}
+  else{$('mediaStatus').textContent='未能读取 '+file.name+' 的时长；当前输入未改变，请在播放器中查看并手动填写。';}
+ };
+ const timer=setTimeout(()=>finish(false),12000);video.preload='metadata';video.onloadedmetadata=()=>finish(true);video.onerror=()=>finish(false);video.src=url;
+});
+update();
+})();
+</script>
+</body>
+</html>

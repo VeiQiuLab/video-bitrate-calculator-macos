@@ -1,0 +1,4478 @@
+{
+  "budgets": [
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 160000,
+      "seconds": 1.0,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 157600,
+      "seconds": 1.0,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 136000,
+      "seconds": 1.0,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 159872,
+      "seconds": 1.0,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 157472,
+      "seconds": 1.0,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 135872,
+      "seconds": 1.0,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 159744,
+      "seconds": 1.0,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 157344,
+      "seconds": 1.0,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 135744,
+      "seconds": 1.0,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1360000,
+      "seconds": 1.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1339600,
+      "seconds": 1.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1156000,
+      "seconds": 1.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1359872,
+      "seconds": 1.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1339472,
+      "seconds": 1.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1155872,
+      "seconds": 1.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1359744,
+      "seconds": 1.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1339344,
+      "seconds": 1.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1155744,
+      "seconds": 1.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 4000000,
+      "seconds": 1.0,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 3940000,
+      "seconds": 1.0,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 3400000,
+      "seconds": 1.0,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 3999872,
+      "seconds": 1.0,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 3939872,
+      "seconds": 1.0,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 3399872,
+      "seconds": 1.0,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 3999744,
+      "seconds": 1.0,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 3939744,
+      "seconds": 1.0,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 3399744,
+      "seconds": 1.0,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 276,
+      "seconds": 578.0,
+      "estimatedBytes": 19941000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 272,
+      "seconds": 578.0,
+      "estimatedBytes": 19951269.035532996
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 235,
+      "seconds": 578.0,
+      "estimatedBytes": 19975000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 148,
+      "seconds": 578.0,
+      "estimatedBytes": 19941000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 144,
+      "seconds": 578.0,
+      "estimatedBytes": 19951269.035532996
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 107,
+      "seconds": 578.0,
+      "estimatedBytes": 19975000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2352,
+      "seconds": 578.0,
+      "estimatedBytes": 169932000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2317,
+      "seconds": 578.0,
+      "estimatedBytes": 169952538.07106602
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2000,
+      "seconds": 578.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2224,
+      "seconds": 578.0,
+      "estimatedBytes": 169932000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2189,
+      "seconds": 578.0,
+      "estimatedBytes": 169952538.07106602
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1872,
+      "seconds": 578.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2096,
+      "seconds": 578.0,
+      "estimatedBytes": 169932000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2061,
+      "seconds": 578.0,
+      "estimatedBytes": 169952538.07106602
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1744,
+      "seconds": 578.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6920,
+      "seconds": 578.0,
+      "estimatedBytes": 499970000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6816,
+      "seconds": 578.0,
+      "estimatedBytes": 499955329.9492386
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 5882,
+      "seconds": 578.0,
+      "estimatedBytes": 499970000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6792,
+      "seconds": 578.0,
+      "estimatedBytes": 499970000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6688,
+      "seconds": 578.0,
+      "estimatedBytes": 499955329.9492386
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 5754,
+      "seconds": 578.0,
+      "estimatedBytes": 499970000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6664,
+      "seconds": 578.0,
+      "estimatedBytes": 499970000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6560,
+      "seconds": 578.0,
+      "estimatedBytes": 499955329.9492386
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 5626,
+      "seconds": 578.0,
+      "estimatedBytes": 499970000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 253,
+      "seconds": 630.5,
+      "estimatedBytes": 19939562.5
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 249,
+      "seconds": 630.5,
+      "estimatedBytes": 19923159.898477156
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 215,
+      "seconds": 630.5,
+      "estimatedBytes": 19934926.470588237
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 125,
+      "seconds": 630.5,
+      "estimatedBytes": 19939562.5
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 121,
+      "seconds": 630.5,
+      "estimatedBytes": 19923159.898477156
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2157,
+      "seconds": 630.5,
+      "estimatedBytes": 169998562.5
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2124,
+      "seconds": 630.5,
+      "estimatedBytes": 169946954.3147208
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1833,
+      "seconds": 630.5,
+      "estimatedBytes": 169956838.23529413
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2029,
+      "seconds": 630.5,
+      "estimatedBytes": 169998562.5
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1996,
+      "seconds": 630.5,
+      "estimatedBytes": 169946954.3147208
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1705,
+      "seconds": 630.5,
+      "estimatedBytes": 169956838.23529413
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1901,
+      "seconds": 630.5,
+      "estimatedBytes": 169998562.5
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1868,
+      "seconds": 630.5,
+      "estimatedBytes": 169946954.3147208
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1577,
+      "seconds": 630.5,
+      "estimatedBytes": 169956838.23529413
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6344,
+      "seconds": 630.5,
+      "estimatedBytes": 499986500.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6249,
+      "seconds": 630.5,
+      "estimatedBytes": 499999302.03045684
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 5392,
+      "seconds": 630.5,
+      "estimatedBytes": 499949411.7647059
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6216,
+      "seconds": 630.5,
+      "estimatedBytes": 499986500.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6121,
+      "seconds": 630.5,
+      "estimatedBytes": 499999302.03045684
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 5264,
+      "seconds": 630.5,
+      "estimatedBytes": 499949411.7647059
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6088,
+      "seconds": 630.5,
+      "estimatedBytes": 499986500.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 5993,
+      "seconds": 630.5,
+      "estimatedBytes": 499999302.03045684
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "10:30.5",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 5136,
+      "seconds": 630.5,
+      "estimatedBytes": 499949411.7647059
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 325,
+      "seconds": 4178.0,
+      "estimatedBytes": 169731250.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 320,
+      "seconds": 4178.0,
+      "estimatedBytes": 169664974.61928934
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 276,
+      "seconds": 4178.0,
+      "estimatedBytes": 169577647.05882353
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 197,
+      "seconds": 4178.0,
+      "estimatedBytes": 169731250.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 192,
+      "seconds": 4178.0,
+      "estimatedBytes": 169664974.61928934
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 148,
+      "seconds": 4178.0,
+      "estimatedBytes": 169577647.05882353
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 957,
+      "seconds": 4178.0,
+      "estimatedBytes": 499793250.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 943,
+      "seconds": 4178.0,
+      "estimatedBytes": 499981472.08121824
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 813,
+      "seconds": 4178.0,
+      "estimatedBytes": 499516764.7058823
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 829,
+      "seconds": 4178.0,
+      "estimatedBytes": 499793250.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 815,
+      "seconds": 4178.0,
+      "estimatedBytes": 499981472.08121824
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 685,
+      "seconds": 4178.0,
+      "estimatedBytes": 499516764.7058823
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 701,
+      "seconds": 4178.0,
+      "estimatedBytes": 499793250.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 687,
+      "seconds": 4178.0,
+      "estimatedBytes": 499981472.08121824
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "1:09:38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 557,
+      "seconds": 4178.0,
+      "estimatedBytes": 499516764.7058823
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 377,
+      "seconds": 3600.0,
+      "estimatedBytes": 169650000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 372,
+      "seconds": 3600.0,
+      "estimatedBytes": 169949238.57868022
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 321,
+      "seconds": 3600.0,
+      "estimatedBytes": 169941176.47058824
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 249,
+      "seconds": 3600.0,
+      "estimatedBytes": 169650000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 244,
+      "seconds": 3600.0,
+      "estimatedBytes": 169949238.57868022
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 193,
+      "seconds": 3600.0,
+      "estimatedBytes": 169941176.47058824
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 121,
+      "seconds": 3600.0,
+      "estimatedBytes": 169650000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 116,
+      "seconds": 3600.0,
+      "estimatedBytes": 169949238.57868022
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1111,
+      "seconds": 3600.0,
+      "estimatedBytes": 499950000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1094,
+      "seconds": 3600.0,
+      "estimatedBytes": 499796954.3147208
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 944,
+      "seconds": 3600.0,
+      "estimatedBytes": 499764705.882353
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 983,
+      "seconds": 3600.0,
+      "estimatedBytes": 499950000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 966,
+      "seconds": 3600.0,
+      "estimatedBytes": 499796954.3147208
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 816,
+      "seconds": 3600.0,
+      "estimatedBytes": 499764705.882353
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 855,
+      "seconds": 3600.0,
+      "estimatedBytes": 499950000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 838,
+      "seconds": 3600.0,
+      "estimatedBytes": 499796954.3147208
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "60:00",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 688,
+      "seconds": 3600.0,
+      "estimatedBytes": 499764705.882353
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 4571,
+      "seconds": 35.0,
+      "estimatedBytes": 19998125.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 4502,
+      "seconds": 35.0,
+      "estimatedBytes": 19996192.893401016
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 3885,
+      "seconds": 35.0,
+      "estimatedBytes": 19996323.529411763
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 4443,
+      "seconds": 35.0,
+      "estimatedBytes": 19998125.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 4374,
+      "seconds": 35.0,
+      "estimatedBytes": 19996192.893401016
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 3757,
+      "seconds": 35.0,
+      "estimatedBytes": 19996323.529411763
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 4315,
+      "seconds": 35.0,
+      "estimatedBytes": 19998125.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 4246,
+      "seconds": 35.0,
+      "estimatedBytes": 19996192.893401016
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 3629,
+      "seconds": 35.0,
+      "estimatedBytes": 19996323.529411763
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 38857,
+      "seconds": 35.0,
+      "estimatedBytes": 169999375.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 38274,
+      "seconds": 35.0,
+      "estimatedBytes": 169998730.964467
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 33028,
+      "seconds": 35.0,
+      "estimatedBytes": 169997058.82352942
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 38729,
+      "seconds": 35.0,
+      "estimatedBytes": 169999375.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 38146,
+      "seconds": 35.0,
+      "estimatedBytes": 169998730.964467
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 32900,
+      "seconds": 35.0,
+      "estimatedBytes": 169997058.82352942
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 38601,
+      "seconds": 35.0,
+      "estimatedBytes": 169999375.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 38018,
+      "seconds": 35.0,
+      "estimatedBytes": 169998730.964467
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 32772,
+      "seconds": 35.0,
+      "estimatedBytes": 169997058.82352942
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 114285,
+      "seconds": 35.0,
+      "estimatedBytes": 499996875.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 112571,
+      "seconds": 35.0,
+      "estimatedBytes": 499998096.4467005
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 97142,
+      "seconds": 35.0,
+      "estimatedBytes": 499995588.2352941
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 114157,
+      "seconds": 35.0,
+      "estimatedBytes": 499996875.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 112443,
+      "seconds": 35.0,
+      "estimatedBytes": 499998096.4467005
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 97014,
+      "seconds": 35.0,
+      "estimatedBytes": 499995588.2352941
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 114029,
+      "seconds": 35.0,
+      "estimatedBytes": 499996875.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 112315,
+      "seconds": 35.0,
+      "estimatedBytes": 499998096.4467005
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "35",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 96886,
+      "seconds": 35.0,
+      "estimatedBytes": 499995588.2352941
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 276,
+      "seconds": 578.0,
+      "estimatedBytes": 19941000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 272,
+      "seconds": 578.0,
+      "estimatedBytes": 19951269.035532996
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 235,
+      "seconds": 578.0,
+      "estimatedBytes": 19975000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 148,
+      "seconds": 578.0,
+      "estimatedBytes": 19941000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 144,
+      "seconds": 578.0,
+      "estimatedBytes": 19951269.035532996
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 107,
+      "seconds": 578.0,
+      "estimatedBytes": 19975000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "error": true
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2352,
+      "seconds": 578.0,
+      "estimatedBytes": 169932000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2317,
+      "seconds": 578.0,
+      "estimatedBytes": 169952538.07106602
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2000,
+      "seconds": 578.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2224,
+      "seconds": 578.0,
+      "estimatedBytes": 169932000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2189,
+      "seconds": 578.0,
+      "estimatedBytes": 169952538.07106602
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1872,
+      "seconds": 578.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2096,
+      "seconds": 578.0,
+      "estimatedBytes": 169932000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 2061,
+      "seconds": 578.0,
+      "estimatedBytes": 169952538.07106602
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1744,
+      "seconds": 578.0,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6920,
+      "seconds": 578.0,
+      "estimatedBytes": 499970000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6816,
+      "seconds": 578.0,
+      "estimatedBytes": 499955329.9492386
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 5882,
+      "seconds": 578.0,
+      "estimatedBytes": 499970000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6792,
+      "seconds": 578.0,
+      "estimatedBytes": 499970000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6688,
+      "seconds": 578.0,
+      "estimatedBytes": 499955329.9492386
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 5754,
+      "seconds": 578.0,
+      "estimatedBytes": 499970000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6664,
+      "seconds": 578.0,
+      "estimatedBytes": 499970000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 6560,
+      "seconds": 578.0,
+      "estimatedBytes": 499955329.9492386
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "9：38",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 5626,
+      "seconds": 578.0,
+      "estimatedBytes": 499970000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1280000,
+      "seconds": 0.125,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1260800,
+      "seconds": 0.125,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "20",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1088000,
+      "seconds": 0.125,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1279872,
+      "seconds": 0.125,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1260672,
+      "seconds": 0.125,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "20",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1087872,
+      "seconds": 0.125,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1279744,
+      "seconds": 0.125,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1260544,
+      "seconds": 0.125,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "20",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 1087744,
+      "seconds": 0.125,
+      "estimatedBytes": 20000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 10880000,
+      "seconds": 0.125,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 10716800,
+      "seconds": 0.125,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "170",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 9248000,
+      "seconds": 0.125,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 10879872,
+      "seconds": 0.125,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 10716672,
+      "seconds": 0.125,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "170",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 9247872,
+      "seconds": 0.125,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 10879744,
+      "seconds": 0.125,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 10716544,
+      "seconds": 0.125,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "170",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 9247744,
+      "seconds": 0.125,
+      "estimatedBytes": 170000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 32000000,
+      "seconds": 0.125,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 31520000,
+      "seconds": 0.125,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "500",
+        "audio": "0",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 27200000,
+      "seconds": 0.125,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 31999872,
+      "seconds": 0.125,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 31519872,
+      "seconds": 0.125,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "500",
+        "audio": "128",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 27199872,
+      "seconds": 0.125,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "0",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 31999744,
+      "seconds": 0.125,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "1.5",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 31519744,
+      "seconds": 0.125,
+      "estimatedBytes": 500000000.0
+    },
+    {
+      "input": {
+        "timeMode": "output",
+        "duration": "0:00.125",
+        "limit": "1000",
+        "target": "500",
+        "audio": "256",
+        "overhead": "15",
+        "unit": "MB",
+        "extra": "0"
+      },
+      "video": 27199744,
+      "seconds": 0.125,
+      "estimatedBytes": 500000000.0
+    }
+  ],
+  "recommendations": [
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 100,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 1149,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 1150,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 1151,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 2189,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 2249,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 2250,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 2251,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 2899,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 2900,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 2901,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 5399,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 5400,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 5401,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 15999,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 16000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 16001,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "normal",
+      "rate": 30000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 100,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 1494,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 1495,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 1496,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 2189,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 2924,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 2925,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 2926,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 3769,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 3770,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 3771,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 7019,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 7020,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 7021,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 20799,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 20800,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 20801,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "fast",
+      "rate": 30000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 100,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 976,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 977,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 978,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 1911,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 1912,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 1913,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 2189,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 2464,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 2465,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 2466,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 4589,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 4590,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 4591,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 13599,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 13600,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 13601,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "hevc",
+      "profile": "slow",
+      "rate": 30000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 100,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 1899,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 1900,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 1901,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 2189,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 3799,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 3800,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 3801,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 4299,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 4300,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 4301,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 8499,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 8500,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 8501,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 21999,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 22000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 22001,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "normal",
+      "rate": 30000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 100,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 2189,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 2469,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 2470,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 2471,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 4939,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 4940,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 4941,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 5589,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 5590,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 5591,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 11049,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 11050,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 11051,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 28599,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 28600,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 28601,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "fast",
+      "rate": 30000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 100,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 1614,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 1615,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 1616,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 2189,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 3229,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 3230,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 3231,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 3654,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 3655,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 3656,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 7224,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 7225,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 7226,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 18699,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 18700,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 18701,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "h264",
+      "profile": "slow",
+      "rate": 30000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 100,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 799,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 800,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 801,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 1649,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 1650,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 1651,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 1999,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 2000,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 2001,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 2189,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 4199,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 4200,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 4201,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 12499,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 12500,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 12501,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "normal",
+      "rate": 30000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 100,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 1039,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 1040,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 1041,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 2144,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 2145,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 2146,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 2189,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 2599,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 2600,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 2601,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 5459,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 5460,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 5461,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 16249,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 16250,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 16251,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "fast",
+      "rate": 30000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 100,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 679,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 680,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 681,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 1401,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 1402,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 1403,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 1699,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 1700,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 1701,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 2189,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 3569,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 3570,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 3571,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 10624,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 10625,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 10626,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "av1",
+      "profile": "slow",
+      "rate": 30000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 100,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 1249,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 1250,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 1251,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 2189,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 2399,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 2400,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 2401,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 3099,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 3100,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 3101,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 5899,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 5900,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 5901,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 15999,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 16000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 16001,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "normal",
+      "rate": 30000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 100,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 1624,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 1625,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 1626,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 2189,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 3119,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 3120,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 3121,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 4029,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 4030,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 4031,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 7669,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 7670,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 7671,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 20799,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 20800,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 20801,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "fast",
+      "rate": 30000,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 100,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 1061,
+      "expected": "建议剪短或降低到 720p30 以下"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 1062,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 1063,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 2039,
+      "expected": "1280×720 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 2040,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 2041,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 2189,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 2634,
+      "expected": "1280×720 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 2635,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 2636,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 5014,
+      "expected": "1920×1080 @ 30 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 5015,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 5016,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 13599,
+      "expected": "1920×1080 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 13600,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 13601,
+      "expected": "2560×1440 @ 60 FPS"
+    },
+    {
+      "codec": "vp9",
+      "profile": "slow",
+      "rate": 30000,
+      "expected": "2560×1440 @ 60 FPS"
+    }
+  ]
+}
